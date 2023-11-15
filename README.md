@@ -34,6 +34,9 @@ A file explorer for linux systems that runs on terminal
     * Directory​ - It will Clear the screen and Navigate into the directory and shows the files & directories inside it as specified in point 1
     * Files​ - It will open files using the corresponding default application.
 
+Normal Mode image
+![Image 1](./image/normal.png)
+
 ### 2. Command Mode:
 The application is enter the command mode whenever the ```:``` (colon) key
 is pressed. 
@@ -102,16 +105,7 @@ search foo.txt
 ```
 Search for the given filename under the current directory recursively
 
-
-**2.6 Snapshotting the filesystem and dump into a file** 
-```
-snapshot <folder> <dumpfile>​
-```
-
-```
-Eg:
-snapshot ~/foobar/ dumpimg
-```
-Given a base directory this command recursively crawl the directory and store the output in dumpfile.
+command Mode Image
+![Image 1](./image/command.png)
 
 **2.7 On pressing ‘ESC’ key the application should go to Normal Mode**
